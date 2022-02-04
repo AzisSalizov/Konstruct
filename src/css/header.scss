@@ -1,0 +1,28 @@
+.header{
+  padding: 24px 0;
+  border-bottom: 1px solid #E6E6E6;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 35px;
+  }
+  &__link{
+    font-family: $OpenSans;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.09091px;
+    color: #48555B;
+    transition: .3s;
+    &:hover{
+      color: $blue;
+      transition: .3s;
+    }
+    &.active{
+      color: $blue;
+    }
+  }
+}

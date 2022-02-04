@@ -1,0 +1,73 @@
+.story{
+  padding: 57px 0 120px;
+  &__title{
+    font-family: $OpenSans;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+    position: relative;
+    margin-bottom: 82px;
+    &::before{
+      content: '';
+      width: 50px;
+      height: 2px;
+      background: $blue;
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__content{
+    display: flex;
+    column-gap: 77px;
+  }
+  &__info{
+    width: 50%;
+    &-title{
+      font-family: $OpenSans;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 0.1875px;
+      color: #48555B;
+      margin-bottom: 30px;
+      span{
+        color: $blue;
+      }
+    }
+    &-text{
+      font-family: $OpenSans ;
+      font-size: 13px;
+      line-height: 23px;
+      letter-spacing: 0.1875px;
+      color: #48555B;
+    }
+  }
+  &__plans{
+    display: flex;
+    column-gap: 20px;
+    width: 50%;
+    font-family: $OpenSans;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+    &-box{
+      width: 33.33333%;
+      padding: 23px 0 152px 14px;
+      &_plan{
+        background: url("../images/story/plan.png") center/cover no-repeat;
+      }
+      &_manage{
+        background: url("../images/story/manage.png")center/cover no-repeat;
+      }
+      &_build{
+        background: url("../images/story/build.png")center/cover no-repeat;
+      }
+    }
+  }
+
+
+}

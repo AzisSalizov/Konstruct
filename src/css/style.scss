@@ -1,0 +1,29 @@
+@import "../fonts/Bebas/stylesheet.css";
+@import "../fonts/Open/stylesheet.css";
+@import "../libs/fontello/css/fontello.css";
+
+@import "enhancer";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.container{
+  width: 100%;
+  max-width: 941px;
+  margin: 0 auto;
+}
+@import "button";
+@import "fist-screen";
+@import "header";
+@import "story";
+@import "capabilites";
+@import "build";
+@import "signUp";
+@import "footer";
+@import "media";

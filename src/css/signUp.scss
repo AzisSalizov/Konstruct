@@ -1,0 +1,25 @@
+.signUp{
+  padding: 40px 0;
+  display: flex;
+  column-gap: 70px;
+  justify-content: center;
+  align-items: center;
+  background: #171819;
+  &__title{
+    font-family: $OpenSans;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+  }
+  &__input{
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+  }
+  &__form{
+    display: flex;
+  }
+}

@@ -1,0 +1,13 @@
+.build {
+  padding: 120px 0 231px;
+  text-align: center;
+  background:#171819 url("../images/build/bg.png") bottom/cover no-repeat;
+  &__title{
+    font-family: $OpenSans;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #48555B;
+    margin-bottom: 35px;
+  }
+}
